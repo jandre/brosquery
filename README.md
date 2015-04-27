@@ -36,11 +36,27 @@ You can now run `osqueryi` with the location of `$BROPATH` set to the bro path, 
 sudo BROPATH="$PWD/bro" osqueryi
 ```
 
+### Installing for EnvDB 
+
+To get it to work with EnvDB, you need to create a wrapper script for `osqueryi` that supplies the correct environment variable
+for the `BROPATH`.  This should be in your path *before* osqueryi.
+
+E.g., add this to your path:
+```
+root@vagrant-ubuntu-trusty-64:~# more /usr/bin/osqueryi
+#!/bin/sh
+BROPATH="/path/to/bro" /path/to/real/osqueryi "$@"
+```
+
+You can also try setting BROPATH=xxx in EnvDB startup although I'm not certain that works.
+
 ## TODO
 
  * [ ] Better Bro log path detection.
- * [ ] Add variable `BROLOGS` to specify where the bro logs are.
- * [ ] Better type handling?   
+ * [ ] Add variable `BROLOGS` to specify where the bro logs are, or maybe a more flexible way to supply this to osquery.
+ * [ ] Better type handling?  Better error handling? 
  
 General wishlist:  I wish osquery had a nicer way of loading any log dynamically into its framework. :)  
+
+
 
