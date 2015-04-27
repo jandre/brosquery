@@ -5,6 +5,8 @@ set(CMAKE_CXX_COMPILER "clang++")
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/third-party/osquery/CMake)
 
 include_directories("${CMAKE_SOURCE_DIR}/third-party/osquery/include")
+string(TOLOWER "${CMAKE_SYSTEM_NAME}" LOWER_PLATFORM)
+include_directories("third-party/osquery/build/${LOWER_PLATFORM}/third-party/glog/include")
 
 add_compile_options(
   -Wall
