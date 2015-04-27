@@ -1,6 +1,6 @@
 ## What?
 
-It's a module for loading `bro` logs as tables in osquery.
+This project builds an OSQuery module `libbro.so` for loading `bro` logs as tables in osquery.
 
 The logs are *dynamically* loaded into tables from the `bro` logs installation directory.  They are created as tables based on their 
 log file name, except pre-pended with `bro_`.  E.g., `conn.log` -> table `bro_conn`.
