@@ -9,11 +9,13 @@ log file name, except pre-pended with `bro_`.  E.g., `conn.log` -> table `bro_co
 
 ![screenshot](https://raw.githubusercontent.com/jandre/brosquery/master/screenshot.png)
 
-From EnvDB UI:
+From [EnvDB](https://github.com/mephux/envdb) UI:
 
 ![screenshot](https://raw.githubusercontent.com/jandre/brosquery/master/envdb-screenshot.png)
 
 ## Building and Installing
+
+To build, you need `cmake`, `clang`, `git` (for both osquery and module builds).
 
 ```bash
 make deps
