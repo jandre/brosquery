@@ -2,8 +2,8 @@
 
 It's a module for loading `bro` logs as tables in osquery.
 
-The logs are dynamically loaded from the `bro` logs installation directory and created as tables pre-pended with `bro_`.
-E.g., `conn.log` -> table `bro_conn`
+The logs are *dynamically* loaded into tables from the `bro` logs installation directory.  They are created as tables based on their 
+log file name, except pre-pended with `bro_`.  E.g., `conn.log` -> table `bro_conn`.
 
 ## Example
 
@@ -36,9 +36,11 @@ You can now run `osqueryi` with the location of `$BROPATH` set to the bro path, 
 sudo BROPATH="$PWD/bro" osqueryi
 ```
 
-# TODO
+## TODO
 
  * [ ] Better Bro log path detection.
  * [ ] Add variable `BROLOGS` to specify where the bro logs are.
  * [ ] Better type handling?   
+ 
+General wishlist:  I wish osquery had a nicer way of loading any log dynamically into its framework. :)  
 
