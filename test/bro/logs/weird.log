@@ -1,0 +1,91 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2015-03-22-16-00-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1427054401.127373	C8PuEn3Ry0iXlQPA6k	10.0.1.11	59777	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054415.303367	CeIflV2p5587wfihB9	10.0.1.11	31222	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054415.303367	C4QpFj32VUlg15kvbe	10.0.1.11	38713	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054415.307399	Cb8H6l21dHAjK0xOkc	10.0.1.11	39669	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054418.379398	CzFhUy1yFtsKjF6zF	10.0.1.11	4911	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054418.379398	C6ar0P3ui4KzWqvXO2	10.0.1.11	51178	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054421.451343	Ckwe2A41KQhG2yxfue	10.0.1.11	55026	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054424.559339	CvR6L52kNdUy2gESab	10.0.1.11	46731	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054427.875385	Ch0f0M3ebgxUdU4lrd	10.0.1.11	40749	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054431.075354	CwgZ0i1f09Bpwn0lDf	10.0.1.11	13009	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054434.151378	CA19GZ1nbFy2C2C4sc	10.0.1.11	40736	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054434.151378	CHIj6A3pAUx2EzgU9i	10.0.1.11	13131	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054436.947387	CVQYxm2mzq329V08Ja	10.0.1.11	42837	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054437.219388	CASkJaaOT27vIbLnl	10.0.1.11	39510	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054437.251390	CvHAu23hXutUY9PMp7	10.0.1.11	28532	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054437.435353	CQeoFQBiPkq7iS19i	10.0.1.11	33822	104.16.16.44	80	active_connection_reuse	-	F	bro
+1427054437.463372	CwDeD5xjziVX08VZk	10.0.1.11	44190	66.150.48.65	80	active_connection_reuse	-	F	bro
+1427054437.475343	CAIkZaoxI2PMkdIrl	10.0.1.11	33822	104.16.16.44	80	unmatched_HTTP_reply	-	F	bro
+1427054437.519343	CMzBZDDp17wxfy9L9	10.0.1.11	44190	66.150.48.65	80	unmatched_HTTP_reply	-	F	bro
+1427054438.879374	C0zDI4dRoGhMGOnYk	10.0.1.11	19177	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054438.895370	Cp6ws335DMl25JLJr7	10.0.1.11	55276	173.194.123.11	443	active_connection_reuse	-	F	bro
+1427054438.899379	CSL74RyR6d90LQsn5	10.0.1.11	48014	74.125.226.88	443	active_connection_reuse	-	F	bro
+1427054438.899379	CXEDhz2KBputb00l8j	10.0.1.11	46882	216.58.219.227	443	active_connection_reuse	-	F	bro
+1427054440.303365	C552Dz2aFXJd5l3J3j	10.0.1.11	52894	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054440.303365	CcxWQY1JyKkLbNWgwc	10.0.1.11	26608	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054440.343368	C8Rbjn1QTBUy9kXK4g	10.0.1.11	58942	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054440.347341	CyduWM1Rswy913J9o4	10.0.1.11	51698	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054440.387356	Cvjuvh48pkIb3hOOc2	10.0.1.11	29236	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054440.407372	CFbAHz3RN5ZCXB22Lh	10.0.1.11	38999	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054443.479385	Cw8VUmAGh2NnTfeBj	10.0.1.11	22001	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054443.691385	CI59e9178lrEwBGOh9	10.0.1.11	40463	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.767337	CrsZBl382DtqBOot46	10.0.1.11	27699	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.771366	CppgxF2oriILJfOVLg	10.0.1.11	65057	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.775375	CSOR8t5GC5pr3Vq4k	10.0.1.11	41284	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.775375	CMchbWMx5LKATT713	10.0.1.11	55365	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.779387	CbmRDz4FQIArNwADP	10.0.1.11	38841	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054446.783375	C1udSR3KwOMrCO939b	10.0.1.11	2233	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054447.195370	Cyup552LusCHLVa23c	10.0.1.11	44195	66.150.48.65	80	active_connection_reuse	-	F	bro
+1427054447.247346	C0x5mA1g2Lo6dufGje	10.0.1.11	44195	66.150.48.65	80	unmatched_HTTP_reply	-	F	bro
+1427054447.503375	Ci5w1h2HgFoWSf8e04	10.0.1.11	44196	66.150.48.65	80	active_connection_reuse	-	F	bro
+1427054447.555393	CPFUpt4GJdqJOmVqm	10.0.1.11	44196	66.150.48.65	80	unmatched_HTTP_reply	-	F	bro
+1427054447.999344	CXm5V44Irys5BMGu53	10.0.1.11	44197	66.150.48.65	80	active_connection_reuse	-	F	bro
+1427054448.051385	C3KuMy4Fop1hvy7bO	10.0.1.11	44197	66.150.48.65	80	unmatched_HTTP_reply	-	F	bro
+1427054449.847361	Ci7nuF1ZYIrVYGxGHe	10.0.1.11	14712	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054456.307367	CigfN42PY5FCQnn44c	73.187.84.243	54732	10.0.1.11	25167	bad_TCP_checksum	-	F	bro
+1427054456.371351	CigfN42PY5FCQnn44c	73.187.84.243	54732	10.0.1.11	25167	data_before_established	-	F	bro
+1427054456.699383	Ci0NcA1wWWtalqlege	86.113.11.194	64535	10.0.1.11	25167	bad_TCP_checksum	-	F	bro
+1427054456.819363	Ci0NcA1wWWtalqlege	86.113.11.194	64535	10.0.1.11	25167	data_before_established	-	F	bro
+1427054462.123340	CRHAc449Rh9g4JfFGh	10.0.1.11	32673	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054465.187353	CEKhMnOTpZdIRIGCj	10.0.1.11	21232	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054465.379336	C0j2Usrh7GJxVFJ0k	10.0.1.11	41921	134.170.18.172	443	active_connection_reuse	-	F	bro
+1427054474.003381	C8UU0547asuj7rFC04	10.0.1.11	8404	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054475.923368	C6pmyl3Z0FuMvjH7s6	10.0.1.11	19642	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054477.179350	CKkFkt46XCispmNxBj	10.0.1.11	28033	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054477.207374	CAuXBF2y61qJMhyjo8	10.0.1.11	59851	104.45.141.128	443	active_connection_reuse	-	F	bro
+1427054485.779383	CmrgJk3xKmXjaGckw6	10.0.1.11	56981	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054485.827355	CUroZq3NujF8A4Mf0k	10.0.1.11	18815	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054488.795355	Cq23JR21vMdEsUzCl9	10.0.1.11	49580	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054488.835364	CiPZDE2Irk5KG77mm8	10.0.1.11	61569	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054488.855350	CERqJt40X1ylSRGznl	10.0.1.11	35237	216.58.219.205	443	active_connection_reuse	-	F	bro
+1427054489.127344	CBPfFaWEQHiqKdqT7	10.0.1.11	33873	173.194.123.116	443	active_connection_reuse	-	F	bro
+1427054489.259342	CybJN83vUoBkgwdgq7	10.0.1.11	16444	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054489.259342	C02Lwz2gKIfuJYbMIa	10.0.1.11	61963	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054489.259342	Ciufz23fkTfuOSJwZk	10.0.1.11	8470	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054489.259342	CZvBKQmzmtslbR94j	10.0.1.11	42298	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054489.279345	Ck7MXL3win7383ohm5	10.0.1.11	33875	173.194.123.116	443	active_connection_reuse	-	F	bro
+1427054489.279345	Chivx5ZJ07hfWVCN1	10.0.1.11	33874	173.194.123.116	443	active_connection_reuse	-	F	bro
+1427054499.351395	CrpSMY1qPZg1gHwRpd	2.238.30.222	11345	10.0.1.11	25167	bad_UDP_checksum	-	F	bro
+1427054500.183361	CAJ6PM3OvEckMFnJn5	10.0.1.11	54977	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054500.199402	CWJgbb4tnbtg6cwbHf	10.0.1.11	14040	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054500.251403	CFD6gi1Mtq127kOb5g	10.0.1.11	54327	173.194.206.95	443	active_connection_reuse	-	F	bro
+1427054500.515375	CVcoon1QlgEHdvXsc2	10.0.1.11	50398	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054500.515375	CCPeMz3fl7OuIe9Do4	10.0.1.11	52298	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054500.535402	Cgpdph4Yfxt95okWrl	10.0.1.11	35242	216.58.219.205	443	active_connection_reuse	-	F	bro
+1427054507.539354	CqEjn33b4FvyWiFJYk	10.0.1.11	22368	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.539354	CJ1tZQouwHkOEzR7j	10.0.1.11	40811	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.587371	C3nUO4sNrTLyoXOs8	10.0.1.11	54329	173.194.206.95	443	active_connection_reuse	-	F	bro
+1427054507.823373	CBZVSG2QP1GBkOmhwg	10.0.1.11	57262	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.827379	CIlFcuXXBSX4mYLak	10.0.1.11	30465	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.827379	Cal3zStfKQs79R2Gh	10.0.1.11	64662	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.827379	CYONfq8kHGAYi9cSj	10.0.1.11	40944	10.0.1.1	53	dns_unmatched_reply	-	F	bro
+1427054507.847360	C5P8yk3IyobW38o8Y5	10.0.1.11	33880	173.194.123.116	443	active_connection_reuse	-	F	bro
+1427054507.847360	Cw9qS719n8GdGtotx9	10.0.1.11	33879	173.194.123.116	443	active_connection_reuse

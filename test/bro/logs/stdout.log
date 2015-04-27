@@ -1,0 +1,4 @@
+max memory size         (kbytes, -m) unlimited
+data seg size           (kbytes, -d) unlimited
+virtual memory          (kbytes, -v) unlimited
+core file size          (blocks, -c) unlimited

@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	communication
+#open	2015-03-22-16-00-04
+#fields	ts	peer	src_name	connected_peer_desc	connected_peer_addr	connected_peer_port	level	message
+#types	time	string	string	string	addr	port	string	string
+1427054404.506101	bro	child	-	-	-	info	selects=159600000 canwrites=0 timeouts=159599998
+1427054410.799785	bro	child	-	-	-	info	selects=159700000 canwrites=0 timeouts=159699998
+1427054417.104679	bro	child	-	-	-	info	selects=159800000 canwrites=0 timeouts=159799998
+1427054423.415631	bro	child	-	-	-	info	selects=159900000 canwrites=0 timeouts=159899998
+1427054429.720897	bro	child	-	-	-	info	selects=160000000 canwrites=0 timeouts=159999998
+1427054436.018577	bro	child	-	-	-	info	selects=160100000 canwrites=0 timeouts=160099998
+1427054442.315038	bro	child	-	-	-	info	selects=160200000 canwrites=0 timeouts=160199998
+1427054448.616121	bro	child	-	-	-	info	selects=160300000 canwrites=0 timeouts=160299998
+1427054454.902528	bro	child	-	-	-	info	selects=160400000 canwrites=0 timeouts=160399998
+1427054461.189629	bro	child	-	-	-	info	selects=160500000 canwrites=0 timeouts=160499998
+1427054467.481907	bro	child	-	-	-	info	selects=160600000 canwrites=0 timeouts=160599998
+1427054473.775211	bro	child	-	-	-	info	selects=160700000 canwrites=0 timeouts=160699998
+1427054480.055150	bro	child	-	-	-	info	selects=160800000 canwrites=0 timeouts=160799998
+1427054486.381089	bro	child	-	-	-	info	selects=160900000 canwrites=0 timeouts=160899998
+1427054492.672328	bro	child	-	-	-	info	selects=161000000 canwrites=0 timeouts=160999998
+1427054499.001069	bro	child	-	-	-	info	selects=161100000 canwrites=0 timeouts=161099998
+1427054505.385829	bro	child	-	-	-	info	selects=161200000 canwrites=0 timeouts=161199998
+1427054511.706664	bro	child	-	-	-	info	selects=161300000 canwrites=0 timeouts=161299998
+1427054518.030455	bro	child	-	-	-	info	selects=161400000 canwrites=0 timeouts=161399998
+1427054524.381053	bro	child	-	-	-	info	selects=161500000 canwrites=0 timeouts=161499998
+1427054530.717860	bro	child	-	-	-	info	selects=161600000 canwrites=0 timeouts=161599998
+1427054537.058603	bro	child	-	-	-	info	selects=161700000 canwrites=0 timeouts=161699998
