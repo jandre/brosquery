@@ -14,12 +14,24 @@ fs::path
 detectBroLogsPath() {
     fs::path logsPath;
 
+    if ((getenv("BROLOGS")) != NULL) {
+        logsPath = fs::path(getenv("BROLOGS"));
+    }
     /* use environment variable BRO_LOGS if it exists. */
-    if ((getenv("BROPATH")) != NULL) {
+    else if ((getenv("BROPATH")) != NULL) {
         logsPath = fs::path(getenv("BROPATH")) / fs::path("logs");
     } else {
-        logsPath = DEFAULT_BRO_LOGS_FOLDER;
-    }
+        if (fs::exists(fs::path(DEFAULT_BRO_LOGS_FOLDER_USR))) {
+          logsPath = DEFAULT_BRO_LOGS_FOLDER_USR;
+        }
+        else if (fs::exists(fs::path(DEFAULT_BRO_LOGS_FOLDER_OPT))) {
+          logsPath = DEFAULT_BRO_LOGS_FOLDER_OPT;
+        }
+        else if (fs::exists(fs::path(DEFAULT_BRO_LOGS_FOLDER_NSM))) {
+          logsPath = DEFAULT_BRO_LOGS_FOLDER_NSM;
+        }
+
+   }
 
     return logsPath;
 }

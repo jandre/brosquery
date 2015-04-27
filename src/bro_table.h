@@ -14,9 +14,9 @@ using namespace osquery;
  * TODO: allow user to set this on build using -DBRO_LOGS_FOLDER=... in cmake,
  * and also look by default in a common set of paths.
  */
-#ifndef DEFAULT_BRO_LOGS_FOLDER
-#define DEFAULT_BRO_LOGS_FOLDER "/opt/bro/logs"
-#endif
+#define DEFAULT_BRO_LOGS_FOLDER_OPT "/opt/bro/logs"
+#define DEFAULT_BRO_LOGS_FOLDER_USR "/usr/local/bro/logs/current"
+#define DEFAULT_BRO_LOGS_FOLDER_NSM "/nsm/bro/logs/current"
 
 fs::path detectBroLogsPath();
 
