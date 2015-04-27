@@ -27,6 +27,7 @@ add_compile_options(
   -fPIE
 )
 set(CXX_COMPILE_FLAGS "")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG")
 
 # Set non-C compile flags and whole-loading linker flags.
 # osquery needs ALL symbols in the libraries it includes for relaxed ctors

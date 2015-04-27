@@ -66,6 +66,8 @@ void
 initModule(void) {
     fs::path logsPath = detectBroLogsPath();
 
+    DEBUG_LOG("Loaded bro module at %s", logsPath.string().c_str());
+
     if (!fs::exists(logsPath) || !fs::is_directory(logsPath)) {
         /* no logs lodaed */
         return;

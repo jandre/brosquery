@@ -9,6 +9,12 @@ namespace       pt = boost::property_tree;
 
 using namespace osquery;
 
+#ifdef  DEBUG
+#define DEBUG_LOG(...) fprintf(stderr, "[DEBUG] "); fprintf(stderr, __VA_ARGS__); fprintf(stderr, "\n");
+#else
+#define DEBUG_LOG(...)
+#endif
+
 /*
  * The path to the default bro logs folder.
  * TODO: allow user to set this on build using -DBRO_LOGS_FOLDER=... in cmake,
