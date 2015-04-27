@@ -11,7 +11,8 @@ using namespace osquery;
 
 /*
  * The path to the default bro logs folder.
- * You can re-set this using -DBRO_LOGS_FOLDER=... in cmake
+ * TODO: allow user to set this on build using -DBRO_LOGS_FOLDER=... in cmake,
+ * and also look by default in a common set of paths.
  */
 #ifndef DEFAULT_BRO_LOGS_FOLDER
 #define DEFAULT_BRO_LOGS_FOLDER "/opt/bro/logs"
@@ -28,6 +29,8 @@ public:
 
     BroField(std::string & name, int pos, std::string & type) {
         name_     = name;
+        /* osquery does not allow dots in the column names, it */
+        /* will flip out. */
         boost::replace_all(name_, ".", "_");
         position_ = pos;
         type_     = type;
@@ -56,6 +59,7 @@ public:
 
     bool                 read(fs::path&);
     void                 readHeader(std::string &);
+    /* parse a line with the given header */
     void                 parse(std::string &, QueryData &);
     tables::TableColumns tableColumns() const;
 };
