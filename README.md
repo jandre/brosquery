@@ -9,6 +9,10 @@ E.g., `conn.log` -> table `bro_conn`
 
 ![screenshot](https://raw.githubusercontent.com/jandre/brosquery/master/screenshot.png)
 
+From EnvDB UI:
+
+![screenshot](https://raw.githubusercontent.com/jandre/brosquery/master/envdb-screenshot.png)
+
 ## Building and Installing
 
 ```bash
@@ -31,4 +35,10 @@ You can now run `osqueryi` with the location of `$BROPATH` set to the bro path, 
 ```bash
 sudo BROPATH="$PWD/bro" osqueryi
 ```
+
+# TODO
+
+ * [ ] Better Bro log path detection.
+ * [ ] Add variable `BROLOGS` to specify where the bro logs are.
+ * [ ] Better type handling?   
 
