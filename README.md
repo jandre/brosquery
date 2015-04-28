@@ -32,10 +32,21 @@ $ sudo mkdir -p /etc/osquery/
 $ sudo sh -c 'echo "/usr/local/lib/libbro.<so|dylib>" >> /etc/osquery/modules.load'
 ```
 
-You can now run `osqueryi` with the location of `$BROPATH` set to the bro path, where it will attempt to load log tables from `$BROPATH/logs`.  E.g.:
+You can now run `osqueryi` with the location of `$BROLOGS` set to the bro logs path, where it will attempt to load log tables from `$BROPATH/logs`.  
+
+
+Example:
 
 ```bash
-sudo BROPATH="$PWD/bro" osqueryi
+sudo BROLOGS="$PWD/bro/logs" osqueryi
+```
+
+Without BROLOGS set, it will try to load logs from the following common Bro installation locations:
+
+```
+/usr/local/bro/logs/current
+/opt/bro/logs
+/nsm/bro/logs/current
 ```
 
 ### Installing for EnvDB 
@@ -47,15 +58,15 @@ E.g., add this to your path:
 ```
 root@vagrant-ubuntu-trusty-64:~# more /usr/bin/osqueryi
 #!/bin/sh
-BROPATH="/path/to/bro" /path/to/real/osqueryi "$@"
+BROLOGS="/path/to/bro/logs" /path/to/real/osqueryi "$@"
 ```
 
-You can also try setting BROPATH=xxx in EnvDB startup although I'm not certain that works.
+You can also try setting BROLOGS=xxx in EnvDB startup although I'm not certain that works.
 
 ## TODO
 
- * [ ] Better Bro log path detection.
- * [ ] Add variable `BROLOGS` to specify where the bro logs are, or maybe a more flexible way to supply this to osquery.
+ * [X] Better Bro log path detection.
+ * [X] Add variable `BROLOGS` to specify where the bro logs are, or maybe a more flexible way to supply this to osquery.
  * [ ] Better type handling?  Better error handling? 
  
 General wishlist:  I wish osquery had a nicer way of loading any log dynamically into its framework. :)  
