@@ -32,8 +32,7 @@ $ sudo mkdir -p /etc/osquery/
 $ sudo sh -c 'echo "/usr/local/lib/libbro.<so|dylib>" >> /etc/osquery/modules.load'
 ```
 
-You can now run `osqueryi` with the location of `$BROLOGS` set to the bro logs path, where it will attempt to load log tables from `$BROPATH/logs`.  
-
+You can now run `osqueryi` with the location of `$BROLOGS` set to the bro logs path, where it will attempt to load log tables from `$BROLOGS`.  
 
 Example:
 
